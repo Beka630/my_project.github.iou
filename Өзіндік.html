@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple Сату Сайты</title>
+    <link rel="stylesheet" href="lab-11.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="">
+</head>
+<body>
+    <header>
+        <h1>Apple</h1>
+        <nav>
+            <ul class="menu">
+                <li><a href="#">Басты бет</a></li>
+                <li><a href="file:///C:/Users/User/Desktop/Ozindik_jumis/Каталог.html">Каталог</a></li>
+                <li><a href="file:///C:/Users/User/Desktop/Web-Практика/Акция.html">Акциялар</a></li>
+                <li><a href="file:///C:/Users/User/Desktop/Ozindik_jumis/Жаңалықтар.html">Жаңалықтар</a></li>
+                <li class="dropdown">
+                    <a href="#">Клиенттерге</a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Қолдау</a></li>
+                        <li><a href="#">Несиелеу</a></li>
+                        <li><a href="file:///C:/Users/User/Desktop/Ozindik_jumis/Жеткізу.html">Жеткізу</a></li>
+                        <li><a href="#">Төлем</a></li>
+                      </ul>
+                <li><a href="#about">Компания туралы</a></li>
+                <li><a href="#signup">Тіркелу</a></li>
+
+                <!-- Жасырын меню батырмасы -->
+                <li><label for="menu-toggle" class="menu-btn">≡ Меню</label></li>
+
+            </ul>
+        </nav>
+    </header>
+
+ <!-- Жасырын меню батырмасы -->
+        <label for="menu-toggle" class="menu-btn">≡ Меню</label>
+
+    <!-- Радио батырма арқылы басқарылатын жасырын меню -->
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <div class="sidebar">
+        
+        <ul>
+            <li><a href="file:///C:/Users/User/Desktop/Ozindik_jumis/Каталог.html">Каталог</a></li>
+            <li><a href="file:///C:/Users/User/Desktop/Web-Практика/Акция.html">Акциялар</a></li>
+            <li><a href="file:///C:/Users/User/Desktop/Жаңалықтар.html"></a></li>
+            <li><a href="file:///C:/Users/User/Desktop/Ozindik_jumis/Жеткізу.html">Жеткізу</a></li>
+            <li><a href="#">Компания туралы</a></li>
+            <li><a href="#">Тіркелу</a></li>
+        </ul>
+    </div>
+
+    <section id="catalog">
+        <h2>Каталог</h2>
+        <div class="products">
+            <div class="product">
+                <img src="https://avatars.mds.yandex.net/i?id=364b3eee036d464b89a0ecfbfff810c7_l-7756406-images-thumbs&n=13" alt="iPhone">
+                <h3>iPhone 14 Pro Max</h3>
+                <p>Бастапқы баға: 699,990 ₸</p>
+                <button>Себетке қосу</button>
+            </div>
+            <div class="product">
+                <img src="https://www.humac.dk/sites/default/files/product-images/2019-06/Apple_AirPods_2019.png" alt="AirPods">
+                <h3>AirPods 2</h3>
+                <p>Бастапқы баға: 89,990 ₸</p>
+                <button>Себетке қосу</button>
+            </div>
+            <div class="product">
+                <img src="https://www.humac.dk/sites/default/files/product-images/2019-07/MBA-PFOpen-Slvr-WW-EN.tif-PRINT.png" alt="iPhone">
+                <h3>MacBook Air</h3>
+                <p>Бастапқы баға: 849,990 ₸</p>
+                <button>Себетке қосу</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="offers">
+    <h2>Акциялар</h2>
+    <p>🔥 Тек осы аптада! Барлық iPhone үлгілеріне 10% жеңілдік!</p>
+    <p>💼 Барлық MacBook Pro сатып алушыларға сыйлық ретінде AirPods Pro беріледі!</p>
+    <p>📅 Акциялар 3 желтоқсанға дейін жарамды.</p>
+    <img src="" alt="">
+    </section>
+
+
+    <section id="signup">
+    <h2>Тіркелу</h2>
+    <form action="#" method="post">
+        <label for="name">Атыңыз:</label>
+        <input type="text" id="name" name="name" placeholder="Атыңызды енгізіңіз" required>
+        
+        <label for="email">Электрондық пошта:</label>
+        <input type="email" id="email" name="email" placeholder="Поштаны енгізіңіз" required>
+        
+        <label for="password">Құпиясөз:</label>
+        <input type="password" id="password" name="password" placeholder="Құпиясөзді енгізіңіз" required>
+        
+        <button type="submit">Тіркелу</button>
+    </form>
+    </section>
+
+
+    <div class="share-btn">
+    <div class="share-menu">
+      <a href="#">Facebook</a>
+      <a href="#">Twitter</a>
+      <a href="#">Instagram</a>
+      <a href="#">Telegram</a>
+    </div>
+    <button onclick="toggleShareMenu()">➤</button>
+  </div>
+
+    <footer>
+        <p>&copy; 2024 Apple Сату Сайты. Барлық құқықтар қорғалған.</p>
+    </footer>
+
+</body>
+</html>
